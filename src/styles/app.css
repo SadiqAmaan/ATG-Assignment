@@ -11,13 +11,3 @@ body{
     width: 1440px ;
     margin: auto;
 }
-
-.col{
-    display: flex;
-}
-.post-sec{
-    width: 980px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-}

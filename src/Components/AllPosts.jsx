@@ -5,6 +5,8 @@ const AllPosts = () => {
   return (
     <div className='allPosts'>
       <Article/>
+      <Article/>
+      <Article/>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import Share from "../Assets/Share.png";
 
 const Article = () => {
   return (
-    <div>
+    <div className="article">
       <img src={img1} alt="" />
       <div className="text-section">
         <div className="text1">
@@ -16,7 +16,9 @@ const Article = () => {
         </div>
         <div className="lgtext">
           <div className="text2">
-            <h2>What if famous brands had regular fonts? Meet <br /> RegulaBrands!</h2>
+            <h2>
+              What if famous brands had regular fonts? Meet <br /> RegulaBrands!
+            </h2>
           </div>
           <img src={bar} alt="" />
         </div>
@@ -27,11 +29,15 @@ const Article = () => {
           </h3>
         </div>
         <div className="user">
-          <img src={Sarthak} alt="" />
+          <div className="sarthak">
+            <img src={Sarthak} alt="" />
+          </div>
           <div className="text4">
             <h2>Sarthak Kamra</h2>
           </div>
-          <img src={View} alt="" />
+          <div className="view">
+            <img src={View} alt="" />
+          </div>
           <div className="text4">
             <h3>1.4k views</h3>
           </div>
