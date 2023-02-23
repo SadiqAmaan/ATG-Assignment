@@ -1,5 +1,7 @@
 import React from 'react'
 import Article from './Article'
+import Education from './Education'
+import Event from './Event'
 
 const AllPosts = () => {
   return (
@@ -7,6 +9,14 @@ const AllPosts = () => {
       <Article/>
       <Article/>
       <Article/>
+      <Article/>
+      <Article/>
+      <Education/>
+      <Education/>
+      <Education/>
+      <Education/>
+      <Education/>
+      <Event/>
     </div>
   )
 }

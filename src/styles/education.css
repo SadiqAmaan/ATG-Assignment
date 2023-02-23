@@ -1,0 +1,73 @@
+.education{
+    border: 1px solid #E0E0E0;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.text-section {
+  margin-left: 20px;
+}
+
+.text1 h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.lgtext {
+  display: flex;
+}
+.lgtext img {
+  width: 18.5px;
+  height: 5px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+.text2 h2 {
+  font-size: 22px;
+  font-weight: 600;
+  width: 600px;
+  margin-top: 10px;
+  line-height: 29px;
+}
+.text3 h3 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: #5c5c5c;
+}
+.user {
+    display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.sarthak img {
+  width: 48px;
+  height: 48px;
+}
+.text4 h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 292px;
+}
+
+.view img {
+  width: 16.5px;
+  height: 12.25px;
+  margin-right: 9px;
+}
+
+.text4 h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #525252;
+  margin-right: 40px;
+}
+.share{
+    width: 42px;
+    height: 36px;
+    background-color: #EDEEF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

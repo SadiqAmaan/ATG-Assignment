@@ -9,6 +9,8 @@ import "./styles/banner.css";
 import "./styles/postnav.css";
 import "./styles/allpost.css";
 import "./styles/article.css";
+import "./styles/education.css";
+import "./styles/event.css";
 
 function App() {
   return (
