@@ -1,0 +1,67 @@
+.postnav {
+  display: flex;
+  column-gap: 16px;
+  position: relative;
+  left: 200px;
+width: 1050px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 20px;
+}
+.posts {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 47px;
+  margin-right: 400px;
+}
+.posts a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+
+.posts a  .active{
+    border-bottom: 1px solid #000000;
+}
+.all a {
+  color: #000000;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 40px;
+}
+
+.buttons .btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeef0;
+  padding: 8px 12px;
+  height: 36px;
+}
+.buttons .btn1 img {
+  width: 10px;
+  height: 5px;
+  margin-left: 16px;
+}
+
+.buttons .btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding: 8px 12px;
+  background-color: #2f6ce5;
+  height: 36px;
+}
+.buttons .btn2 img {
+  width: 22px;
+  height: 12px;
+  margin-right: 6px;
+}
+.buttons h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
