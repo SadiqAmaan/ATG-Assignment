@@ -17,6 +17,10 @@ const AllPosts = () => {
       <Education/>
       <Education/>
       <Event/>
+      <Event/>
+      <Event/>
+      <Event/>
+      <Event/>
     </div>
   )
 }

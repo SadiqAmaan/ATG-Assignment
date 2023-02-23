@@ -19,7 +19,7 @@ const Education = () => {
             Tax Benefits for Investment under National Pension <br /> Scheme launched by Government
             </h2>
           </div>
-          <img src={bar} alt="" />
+          <div className="pop"><button><img src={bar} alt="" /></button></div>
         </div>
         <div className="text3">
           <h3>

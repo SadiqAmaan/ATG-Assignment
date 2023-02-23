@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../Assets/Education.png";
 import bar from "../Assets/Bar.png";
-import Sarah from "../Assets/Sarah.png";
+import Ronal from "../Assets/Ronal.png";
 import View from "../Assets/View.png";
 import Share from "../Assets/Share.png";
 import Calender from "../Assets/Calender.png";
@@ -11,6 +11,7 @@ const Event = () => {
   return (
     <div className="event">
       <img src={img1} alt="" />
+      <div className="text-section">
       <div className="text1">
         <h3>🗓️ Meetup</h3>
       </div>
@@ -21,26 +22,25 @@ const Event = () => {
             launched by Government
           </h2>
         </div>
-        <img src={bar} alt="" />
+        <div className="pop"><button><img src={bar} alt="" /></button></div>
       </div>
       <div className="event-details">
         <div className="date">
           <img src={Calender} alt="" />
           <h2>Fri, 12 Oct, 2018</h2>
         </div>
-        <div className="location"></div>
+        <div className="location">
           <img src={location} alt="" />
           <h2>Ahmedabad, India</h2>
+        </div>
       </div>
-
-
-
+        <div className="event3"><h2>Visit Website</h2></div>
       <div className="user">
         <div className="sarthak">
-          <img src={Sarah} alt="" />
+          <img src={Ronal} alt="" />
         </div>
         <div className="text4">
-          <h2>Sarah West</h2>
+          <h2>Ronal Jones</h2>
         </div>
         <div className="view">
           <img src={View} alt="" />
@@ -51,6 +51,7 @@ const Event = () => {
         <div className="share">
           <img src={Share} alt="" />
         </div>
+      </div>
       </div>
     </div>
   );

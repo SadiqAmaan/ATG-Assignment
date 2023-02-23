@@ -4,6 +4,7 @@ import PostNav from "./Components/PostNav";
 import AllPosts from "./Components/AllPosts";
 
 import "./styles/app.css";
+import "./styles/popup.css";
 import "./styles/navbar.css";
 import "./styles/banner.css";
 import "./styles/postnav.css";

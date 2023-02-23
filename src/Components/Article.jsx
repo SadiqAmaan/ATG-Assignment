@@ -1,12 +1,15 @@
-import React from "react";
+import { React, useState } from "react";
 
 import img1 from "../Assets/Article-img.png";
 import bar from "../Assets/Bar.png";
 import Sarthak from "../Assets/Sarthak.png";
 import View from "../Assets/View.png";
 import Share from "../Assets/Share.png";
+import Popup from "./Popup";
 
 const Article = () => {
+  const [btnPopup, setbtnPopup] = useState(false);
+
   return (
     <div className="article">
       <img src={img1} alt="" />
@@ -20,8 +23,21 @@ const Article = () => {
               What if famous brands had regular fonts? Meet <br /> RegulaBrands!
             </h2>
           </div>
-          <img src={bar} alt="" />
+          <div className="pop">
+            <button onClick={() => setbtnPopup(true)}>
+              <img src={bar} alt="" />
+            </button>
+          </div>
         </div>
+          <Popup
+            className="pop-text"
+            trigger={btnPopup}
+            setTrigger={setbtnPopup}
+          >
+            <h3>Edit</h3>
+            <h3>Report</h3>
+            <h3>Option 3</h3>
+          </Popup>
         <div className="text3">
           <h3>
             I’ve worked in UX for the better part of a decade. From now on, I

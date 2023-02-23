@@ -1,7 +1,7 @@
-.article{
-    border: 1px solid #E0E0E0;
-    width: fit-content;
-    border-radius: 5px;
+.article {
+  border: 1px solid #e0e0e0;
+  width: fit-content;
+  border-radius: 5px;
 }
 
 .text-section {
@@ -22,6 +22,21 @@
   margin-top: 22px;
   margin-left: 30px;
 }
+.lgtext .pop button {
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Popup h3{
+  font-size: 14px;
+  font-weight: 400;
+}
+.lgtext .pop button:hover {
+  cursor: pointer;
+}
 .text2 h2 {
   font-size: 22px;
   font-weight: 600;
@@ -36,9 +51,10 @@
   color: #5c5c5c;
 }
 .user {
-    display: flex;
+  display: flex;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .sarthak img {
   width: 48px;
@@ -63,11 +79,11 @@
   color: #525252;
   margin-right: 40px;
 }
-.share{
-    width: 42px;
-    height: 36px;
-    background-color: #EDEEF0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.share {
+  width: 42px;
+  height: 36px;
+  background-color: #edeef0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

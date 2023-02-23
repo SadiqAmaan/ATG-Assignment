@@ -1,0 +1,22 @@
+.popup{
+    width: 160px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    top: 0; left: 500px;
+    background-color: white;
+    overflow-y: hidden;
+    
+    z-index: 999;
+}
+
+.inner-popup{
+    position: relative;
+}
+.inner-popup .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
