@@ -1,6 +1,12 @@
 import React from "react";
+import { Route, Routes } from "react-router";
+import { Router } from "react-router-dom";
 import DA from "../Assets/DA.png";
 import GL from "../Assets/Group.png";
+import AllPosts from "./AllPosts";
+import Article from "./Article";
+import Education from "./Education";
+import Event from "./Event";
 
 const PostNav = () => {
   return (
@@ -13,7 +19,7 @@ const PostNav = () => {
           <a href="/article">Article</a>
         </div>
         <div className="other active">
-          <a hre="/event">Event</a>
+          <a href="/event">Event</a>
         </div>
         <div className="other active">
           <a href="/education">Education</a>
@@ -32,6 +38,7 @@ const PostNav = () => {
           <h2>Join Group</h2>
         </div>
       </div>
+      
     </div>
   );
 };

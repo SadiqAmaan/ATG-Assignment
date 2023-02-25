@@ -29,15 +29,11 @@ const Article = () => {
             </button>
           </div>
         </div>
-          <Popup
-            className="pop-text"
-            trigger={btnPopup}
-            setTrigger={setbtnPopup}
-          >
-            <h3>Edit</h3>
-            <h3>Report</h3>
-            <h3>Option 3</h3>
-          </Popup>
+        <Popup className="pop-text" trigger={btnPopup} setTrigger={setbtnPopup}>
+          <h3>Edit</h3>
+          <h3>Report</h3>
+          <h3>Option 3</h3>
+        </Popup>
         <div className="text3">
           <h3>
             I’ve worked in UX for the better part of a decade. From now on, I
